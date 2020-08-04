@@ -12,7 +12,6 @@ interface PageHeaderProps {
 
 const PageHeader: React.FC<PageHeaderProps> = (props) => {
   return (
-    <div id="page-teacher-list" className="container">
       <header className="page-header">
         <div className="top-bar-container">
           <Link to="/"> 
@@ -28,7 +27,6 @@ const PageHeader: React.FC<PageHeaderProps> = (props) => {
           {props.children}
         </div>
       </header>
-    </div>
   );
 }
 
