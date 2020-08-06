@@ -20,6 +20,8 @@ function Landing () {
           const total = res.data.total;
           setTotalConnections(total);
         }
+      }).catch(e => {
+        console.log(e);
       });
   }, 
   [ ]);
